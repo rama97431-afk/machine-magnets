@@ -29,7 +29,7 @@
       <div class="acts rv" style="--d:420ms"><a class="btn" href="#events">Upcoming events</a><a class="btn g" href="#about">Our story</a></div>
       <div class="chips" id="chips"></div>
     </div>
-    <div class="scene rv" id="scene" style="--d:300ms" aria-hidden="true"><div class="obj"><div class="mw"><div class="mag" id="mag"></div></div></div></div>
+    <div class="scene rv magnet-scene" id="scene" style="--d:300ms"><canvas id="magnetLogo" role="img" aria-label="Interactive chrome horseshoe magnet. Move the pointer to tilt it; click or tap to pulse."></canvas></div>
   </div></div>
   <div class="sec"><div class="wrap"><div class="row"><div><p class="kick">What we do</p><h2 class="h2 rt" data-t="Our focus areas"></h2></div><a class="more" href="#about">Explore all →</a></div><div class="g4" id="focus"></div></div></div>
   <div class="sec"><div class="wrap"><div class="row"><div><p class="kick">Next up</p><h2 class="h2 rt" data-t="Upcoming events"></h2></div><a class="more" href="#events">View all events →</a></div><div class="g3 evs"></div></div></div>
@@ -68,8 +68,10 @@
 <div class="deck" id="deck" aria-label="Project detail cards"></div></dialog>
 <dialog id="rg"><h3>Register</h3><p class="meta" id="rgt"></p><form id="rf"><label for="rn">Name</label><input id="rn" required><label for="re">Email</label><input id="re" type="email" required><div class="acts"><button class="btn" type="submit">Submit</button><button class="btn g" type="button" id="rc">Close</button></div><p class="meta" id="rok" hidden>Thanks! This sample form runs in your browser only and is not sent anywhere.</p></form></dialog>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/effects.js"></script>
+<script src="assets/js/magnet-logo.js"></script>
 <script src="assets/js/timeline.js"></script>
 <script src="assets/js/projects.js"></script>
 </body>
